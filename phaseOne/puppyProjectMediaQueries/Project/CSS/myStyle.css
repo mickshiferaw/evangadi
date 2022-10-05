@@ -1,0 +1,64 @@
+/* mobile first style */
+* {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+/* Header */
+.header {
+    background-color: #6496ED;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+/* section */
+.puppy img {
+    width: 100%;
+}
+.banner img {
+    width: 100%;
+}
+.puppymissing {
+visibility: hidden;
+}
+.morepuppy {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+
+/* responsive stying for min width of 980px */
+@media (min-width: 980px) {
+    .container {
+        width: 980px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .puppymissing {
+        width: 310px;
+        height: 310px;
+        background-color: pink;
+        text-align: center;
+        font-size: 65px;
+    }
+    .footer {
+        margin-top: 30px;
+    }
+    .upperpuppy {
+        margin-top: 30px;
+    }
+    .puppymissing {
+        visibility: visible;
+        }
+}

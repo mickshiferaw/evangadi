@@ -1,0 +1,70 @@
+/*header text sesign*/
+.header{
+    text-align: center;
+    background-color: cornflowerblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0%;
+    margin-top: 0;
+    font-weight: bolder;
+}
+
+/* puppy banner design*/
+.banner img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/*first puppies pic design*/
+.fcontainer{
+    display: flex;
+    width: 970px;
+    margin: 0 auto;
+}
+
+/*more puppies pic design*/
+.scontainer{
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+/*more puppies text design*/
+.morepuppies{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: bolder;
+    align-content: space-between;
+}
+.puppy3{
+    margin-right: 15px;
+}
+.puppy4{
+    margin-left: 15px;
+}
+
+/*puppy missing text design*/
+.puppymissing {
+    background-color: pink;
+    vertical-align: center;
+    text-align: center;
+    font-size: 70px;
+    width: 310px;
+    height: 310px;
+    margin: 0 15px;
+}
+
+/* footer design*/
+.footer {
+    text-align: center;
+    background-color: cornflowerblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
