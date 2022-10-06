@@ -1,35 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+/* header style */
+.links {
+    background-color: rgba(0, 0, 0, 0.856);
+}
+.links ul li {
+    padding: 14px 0 8px;
+    /* height: 25px; */
+    opacity: 0.8;
+}
+.links ul li:hover {
+    opacity: 1;
+}
 
-.container
-{
+.link-list{
+    width: 980px;
     display: flex;
-    background-color: black;
+    /* padding: px 0; */
+    list-style: none;
+    margin: 0 auto;
+    /* -webkit-box-pack: justify; */
+    justify-content: space-between;
+}
+.link-list li a  {
+    text-decoration: none;
     color: white;
-   justify-content: center;
-}
-
-.abc
-{
-    display: flex;
-   justify-content: center;
-}
-.par1
-{
-    text-align: center;
-    font-size: 20px;
-
-}
-.h3
-{
-    text-align: center;
-    font-size: 20px;
-}
-.par2
-{
-text-align: center;
-font-size: 20px;
-}
-.h4
-{
-    font-size: 20px;
+    list-style: none;
     
+}
+.logo-link, .search-link, .cart-link {
+    width: 18px;
+    /* display: block; */
+}
+.links ul li.logo-link {
+    padding: 12px 0 10px;
+}
+.links ul li.search-link {
+    padding: 14px 0 8px;
+}
+.links ul li.cart-link {
+    padding: 12px 0 10px;
+}
+
+.second-header ul {
+    width: 680px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 400px;
+    margin-left: 500px;
+    padding: 15px 0;
+
+}
+.second-header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+#headerr {
+    position: fixed;
+}
+.second-header ul li a:hover {
+   color: blue;
+}
+.horizontal {
+    width: 982px;
+    margin: 0 auto;
+    opacity: 0.6;
+}
+.texts {
+    margin: 35px auto;
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 25px;
+}
+h4 {
+    text-align: center;
+    padding-top: 15px;
+    color: rgba(0, 0, 0, 0.671);
+    padding-bottom: 15px;
+}
+.horizontal1 {
+    width: 950px;
+    margin: 0 auto;
+    opacity: 0.6;
+}
+h3 {
+    margin-top: 35px;
+}
+.text2{
+    width: 950px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+p {
+    opacity: 0.8;
+    margin: 15px auto;
 }
