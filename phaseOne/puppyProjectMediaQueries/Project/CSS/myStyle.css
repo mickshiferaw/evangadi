@@ -1,13 +1,24 @@
 /* mobile first style */
 * {
     margin: 0;
+    padding: 0;
 }
 img {
-    max-width: 100%;
+    width: 100%;
 }
 .container {
     margin: 0 auto;
-    padding: 0 5%;
+    width: 100%;
+}
+.container img {
+    width: 100%;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+.banner img {
+    width: 100%;
 }
 
 /* Header */
@@ -19,13 +30,6 @@ img {
     color: #fff;
     font-weight: 700;
 }
-/* section */
-.puppy img {
-    width: 100%;
-}
-.banner img {
-    width: 100%;
-}
 .puppymissing {
 visibility: hidden;
 }
@@ -36,21 +40,33 @@ visibility: hidden;
     color: black;
     font-weight: 700;
 }
-
-
-/* responsive stying for min width of 980px */
-@media (min-width: 980px) {
+/* responsive styling for min width of  768px */
+@media (min-width: 768px) {
+    .header {
+        color: red;
+    }
+   
     .container {
-        width: 980px;
+        width: 768px;
         display: flex;
         justify-content: space-between;
     }
-    .puppymissing {
+    .puppy3 {
+        margin-right: 15px;
+    }
+    .puppy4 {
+        margin-left: 15px;
+    }
+    .puppymissing{
         width: 310px;
-        height: 310px;
-        background-color: pink;
+        height: 246px;
+        background-color: blue;
         text-align: center;
+        display: flex;
+        align-items: center;
         font-size: 65px;
+        visibility: visible;
+        margin: 0 15px;
     }
     .footer {
         margin-top: 30px;
@@ -58,7 +74,32 @@ visibility: hidden;
     .upperpuppy {
         margin-top: 30px;
     }
+}
+
+/* responsive stying for min width of 980px */
+@media (min-width: 980px) {
+    .header {
+        color: black;
+    }
+   
+    .container {
+        width: 980px;
+        display: flex;
+        justify-content: space-between;
+    }
+
     .puppymissing {
+        width: 310px;
+        height: 310px;
+        background-color: pink;
+        text-align: center;
+        font-size: 65px;
         visibility: visible;
-        }
+    }
+    .footer {
+        margin-top: 30px;
+    }
+    .upperpuppy {
+        margin-top: 30px;
+    }
 }
